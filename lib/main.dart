@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:team_dart/screens/home_screen.dart';
+import 'package:team_dart/screens/onbording_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  HomeScreen(),
+      home: OnbordingScreen(),
     );
   }
 }
